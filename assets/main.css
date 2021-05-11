@@ -1,0 +1,190 @@
+input {
+  display: none;
+}
+/* Head */
+input[type="radio"]:checked#red-top ~ .head {
+  background-color: red;
+}
+
+input[type="radio"]:checked#blue-top ~ .head {
+  background-color: blue;
+}
+
+input[type="radio"]:checked#green-top ~ .head {
+  background-color: green;
+}
+
+input[type="radio"]:checked#purple-top ~ .head {
+  background-color: purple;
+}
+
+input[type="radio"]:checked#pink-top ~ .head {
+  background-color: pink;
+}
+
+input[type="radio"]:checked#yellow-top ~ .head {
+  background-color: yellow;
+}
+
+input[type="radio"]:checked#clear ~ .head {
+  background-color: transparent;  
+}
+
+/* Middle */
+input[type="radio"]:checked#red-middle ~ .middle {
+  background-color: red;
+}
+
+input[type="radio"]:checked#blue-middle ~ .middle {
+  background-color: blue;
+}
+
+input[type="radio"]:checked#green-middle ~ .middle {
+  background-color: green;
+}
+
+input[type="radio"]:checked#purple-middle ~ .middle {
+  background-color: purple;
+}
+
+input[type="radio"]:checked#pink-middle ~ .middle {
+  background-color: pink;
+}
+
+input[type="radio"]:checked#yellow-middle ~ .middle {
+  background-color: yellow;
+}
+
+input[type="radio"]:checked#clear ~ .middle {
+  background-color: transparent;  
+}
+
+/* Bottom */
+input[type="radio"]:checked#red-bottom ~ .bottom {
+  background-color: red;
+}
+
+input[type="radio"]:checked#blue-bottom ~ .bottom {
+  background-color: blue;
+}
+
+input[type="radio"]:checked#green-bottom ~ .bottom {
+  background-color: green;
+}
+
+input[type="radio"]:checked#purple-bottom ~ .bottom {
+  background-color: purple;
+}
+
+input[type="radio"]:checked#pink-bottom ~ .bottom{
+  background-color: pink;
+}
+
+input[type="radio"]:checked#yellow-bottom ~ .bottom {
+  background-color: yellow;
+}
+
+input[type="radio"]:checked#clear ~ .bottom {
+  background-color: transparent;  
+}
+
+
+
+.head {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid black;
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.middle, .bottom {
+    display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+label {
+  margin: 8px;
+  font-size: 1em;
+}
+
+.red {
+  background-color: red;
+  color: red;
+}
+
+.blue {
+  background-color: blue;
+  color: blue;
+}
+
+.green {
+  background-color: green;
+  color: green;
+}
+
+.purple {
+  background-color: purple;
+  color: purple;
+}
+
+.pink {
+  background-color: pink;
+  color: pink;
+}
+
+.yellow {
+  background-color: yellow;
+  color: yellow;
+}
+
+.clear {
+  border: solid;
+  border-width: 2px;
+  letter-spacing: 2px;
+  
+  
+}
+
+.choices {
+ text-align: center;
+}
+
+body {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+img {
+  max-height: 40%;
+  max-width: 60%;
+
+}
+
+h2 {
+  font-size: 3vw;
+  margin: 0%;
+  word-spacing: 2.25vw;
+}
+
+p {
+  justify-content: center;
+  margin: 0;
+  padding-right: 20px;
+}
+
+h2.smile {
+  transform: rotate(90deg);
+  font-size: 3.75vw;
+  margin: auto;
+  padding-right: 3.5vw;
+  
+}
